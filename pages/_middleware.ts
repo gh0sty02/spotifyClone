@@ -11,6 +11,6 @@ export async function middleware(req: NextRequest) {
   }
 
   if (!token && pathname !== "/login") {
-    return NextResponse.redirect("/login");
+    return NextResponse.redirect("https://spotifybyghosty.vercel.app/login");
   }
 }
