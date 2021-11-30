@@ -39,6 +39,7 @@ export async function getServerSideProps() {
     props: {
       providers,
     },
+    fallback: true,
   };
 }
 
