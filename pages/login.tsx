@@ -34,12 +34,12 @@ const Login: FC<IProps> = ({ providers }) => {
 
 export async function getServerSideProps() {
   const providers = await getProviders();
+  console.log(providers);
 
   return {
     props: {
       providers,
     },
-    fallback: true,
   };
 }
 
