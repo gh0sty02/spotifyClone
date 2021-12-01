@@ -1,29 +1,33 @@
-# Next.js + Tailwind CSS Example
+# Mini Spotify Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![image](https://user-images.githubusercontent.com/78202013/144171294-775a22b2-755d-4ba1-bbb1-0221f7bcee2e.png)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+Spotify is a Music Streaming platform. The clone tries to imitate the functions and working of the original app but has some limitations set up by the Spotify Web API itself. It uses Next.js combined with Typescript and Tailwind CSS. Also Recoil.js is used for app wide state management. The App supports features such as Streaming songs from any Playlist, Play/Pause the song and Increase/Decrease the Volume. The feature of skipping the Song is not implemented as Spotify API has some bug regarding the feature.
 
-## Preview
+## Note : 
+To Stream Songs, the API requires the User to be a Premium User
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Installation
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Make Sure that you have [Node](https://nodejs.org/en/download/) Installed.
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+gh repo clone gh0sty02/spotifyClone
+
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Usage
+
+```javascript
+cd spotifyClone
+npm install
+npm run dev
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
